@@ -18,7 +18,7 @@ namespace QnAMakerDemo
             Console.WriteLine("Ask your question.");
             var query = Console.ReadLine(); //User Query
             var knowledgebaseId = "your knowledgebase id"; // Use knowledge base id created.
-            var qnamakerSubscriptionKey = "your qnamakerSubscriptionKey"; //Use subscription key assigned to you.
+            var qnamakerSubscriptionKey = "your subscription key"; //Use subscription key assigned to you.
 
             //Build the URI
             Uri qnamakerUriBase = new Uri("https://westus.api.cognitive.microsoft.com/qnamaker/v2.0");
